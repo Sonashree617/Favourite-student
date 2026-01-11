@@ -16,7 +16,7 @@ function FavouriteStudents() {
                 <div className="student-grid">
                     {favourites.map((student) => (
                         <div className="student-card" key={student.id}>
-                            <h3>{student.name}</h3> {/* ✅ ONLY STRING */}
+                            <h3>{student.name}</h3> 
                             <button
                                 className="remove"
                                 onClick={() => removeFavourite(student)}

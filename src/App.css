@@ -1,15 +1,10 @@
 * {
   box-sizing: border-box;
-}
-
-/* LAYOUT */
-.app {
+}.app {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
-/* BODY */
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,7 +12,6 @@ body {
   color: #334155;
 }
 
-/* HEADER */
 .header {
   background-color: #334155;
   color: #f8fafc;
@@ -25,8 +19,6 @@ body {
   text-align: center;
   font-weight: 600;
 }
-
-/* NAVBAR */
 .navbar {
   background-color: #46648f;
   padding: 12px;
@@ -45,12 +37,10 @@ body {
   color: #0e3b1d;
 }
 
-/* CONTENT */
 .content {
   flex: 1;
 }
 
-/* PAGE */
 .student-list-container {
   max-width: 900px;
   margin: 0 auto;
@@ -80,19 +70,16 @@ h2 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   text-align: center;
 
-  /* 🔹 Smooth transition */
   transition:
     transform 0.25s ease,
     box-shadow 0.25s ease;
 }
 
-/* 🔹 Hover effect */
 .student-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
 }
 
-/* BUTTONS */
 button.add {
   background-color: #4dda54;
   color: #0b0f13;
@@ -126,7 +113,6 @@ button.remove:hover {
   background-color: #4dda54;
 }
 
-/* FOOTER */
 .footer {
   background-color: #1f2937;
   text-align: center;
@@ -136,7 +122,6 @@ button.remove:hover {
   font-weight: 400;
 }
 
-/* MOBILE */
 @media (max-width: 600px) {
   .navbar a {
     display: block;
