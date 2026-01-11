@@ -1,3 +1,4 @@
+#FAVOURITE STUDENT
 A **React JS** application that allows users to manage a list of students and mark them as favourites. This project demonstrates **React Router**, **Context API** for global state management, and **conditional rendering**.
 
 Project Overview
